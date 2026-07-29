@@ -23,3 +23,5 @@
 Notes go here as tasks are finished — e.g.:
 "enemies.js: Enemy is {x,y,hp,dmg,speed,type,radius}. Spawner pushes into
 a shared `enemies` array in main.js, doesn't own its own loop."
+
+enemies.js: Exports createEnemy(), updateEnemies(), applyContactDamage(), damageEnemy(), removeDeadEnemies(), getNearestEnemy(). Enemy objects are {x,y,hp,dmg,speed,type,radius}; module owns no global state.
